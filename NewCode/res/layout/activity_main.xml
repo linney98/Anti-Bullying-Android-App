@@ -24,22 +24,26 @@
             android:layout_height="wrap_content"
             android:text="@string/wcme"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textColor="@color/textR" />
+            android:textColor="@color/textR"
+            />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button1q"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/bttnB"
             android:text="@string/qz"
-            android:textColor="@color/bttn" />
+            android:textColor="@color/bttn"
+            />
 
         <ImageButton
             android:id="@+id/imageButton1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/ceop"
-            android:textColor="@color/blueBB" />
+            android:textColor="@color/blueBB"
+            android:contentDescription="This button will send you to the CEOP site so you can report abuse/bullying"
+            />
 
     </LinearLayout>
 

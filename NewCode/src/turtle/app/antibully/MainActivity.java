@@ -5,15 +5,25 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_main);Button startButton = (Button) findViewById(R.id.button1);
+		startButton.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v2) {
+				startQuiz();
+				
+			}
+		});
 	}
-	public void classRegister(View v) {
+	
+	public void startQuiz() {
 		Intent q = new Intent(MainActivity.this, QuizStarterActivity.class);
 		startActivity(q);
 	}
