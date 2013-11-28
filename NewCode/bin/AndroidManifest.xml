@@ -22,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="turtle.app.antibully.QuizStarterActivity"
+            android:label="@string/title_activity_quiz_starter" >
+        </activity>
     </application>
 
 </manifest>

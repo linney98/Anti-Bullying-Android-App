@@ -5,4 +5,22 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
 
+    <color name="blueB">#4C3AF0</color>
+    <color name="blueBB">#6E5FF5</color>
+    <color name="textR">#FF0000</color>
+
+    <string name="wcme">Welcome to the Anti-Bullying App Choose an option below:</string>
+    <string name="qz">Quiz</string>
+
+    <color name="bttn">#0ACC00</color>
+    <color name="bttnB">#FA4700</color>
+
+    <string name="title_activity_quiz_starter">QuizStarterActivity</string>
+
+    <string name="wcmeq">Welcome to the quiz screen if you would like to play click \'yes\' if not \'no\'</string>
+
+    <string name="ys">YES</string>
+
+    <string name="no">NO</string>
+
 </resources>

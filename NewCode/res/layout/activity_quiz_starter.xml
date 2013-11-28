@@ -6,23 +6,22 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity"
+    tools:context=".QuizStarterActivity"
     android:background="@color/blueB" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true"
         android:background="@color/blueBB"
-        android:gravity="top"
         android:orientation="vertical" >
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/wcme"
+            android:text="@string/wcmeq"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="@color/textR" />
 
@@ -30,16 +29,13 @@
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/bttnB"
-            android:text="@string/qz"
-            android:textColor="@color/bttn" />
+            android:text="@string/ys" />
 
-        <ImageButton
-            android:id="@+id/imageButton1"
+        <Button
+            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/ceop"
-            android:textColor="@color/blueBB" />
+            android:text="@string/no" />
 
     </LinearLayout>
 
