@@ -21,5 +21,11 @@
     <string name="no">NO</string>
     <string name="expln">This button will send you to the CEOP site so you can report abuse/bullying</string>
     <string name="title_activity_quiz_first">QuizFirstActivity</string>
+    <string name="q1">Who can you tell if you are being bullied?</string>
+    <string name="ansLBL">Answers:</string>
+    <string name="q1ans1">Anyone you trust</string>
+    <string name="q1ans2">A Teacher</string>
+    <string name="q1ans3">A Parent</string>
+    <string name="q1ans4">Other Family Member</string>
 
 </resources>

@@ -30,7 +30,7 @@ public class QuizStarterActivity extends Activity {
     }
 	 public void addListenerOnButton3() {
 		 final Context context = this;
-		 Button button3 = (Button) findViewById(R.id.button3);
+		 Button button3 = (Button) findViewById(R.id.button7);
 		 button3.setOnClickListener(new OnClickListener() {
 			 @Override
 			 public void onClick(View arg0) {
