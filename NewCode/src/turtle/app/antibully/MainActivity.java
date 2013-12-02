@@ -17,17 +17,12 @@ public class MainActivity extends Activity {
 		startQuiz.setOnClickListener(new View.OnClickListener() {
 
 			@Override
-			public void onClick(View v2) {
+			public void onClick(View v) {
 				Toast.makeText(MainActivity.this, "Transferring to Quiz page!", Toast.LENGTH_LONG).show();
-				startQuiz();
+				startActivity(new Intent(MainActivity.this, QuizStarterActivity.class));
 				
 			}
 		});
-	}
-	
-	public void startQuiz() {
-		Intent q = new Intent(MainActivity.this, QuizStarterActivity.class);
-		startActivity(q);
 	}
 
 	@Override
