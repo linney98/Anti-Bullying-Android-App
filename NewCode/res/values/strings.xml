@@ -16,13 +16,10 @@
     <color name="bttnB">#FA4700</color>
 
     <string name="title_activity_quiz_starter">QuizStarterActivity</string>
-
     <string name="wcmeq">Welcome to the quiz screen if you would like to play click \'yes\' if not \'no\'</string>
-
     <string name="ys">YES</string>
-
     <string name="no">NO</string>
-
     <string name="expln">This button will send you to the CEOP site so you can report abuse/bullying</string>
+    <string name="title_activity_quiz_first">QuizFirstActivity</string>
 
 </resources>

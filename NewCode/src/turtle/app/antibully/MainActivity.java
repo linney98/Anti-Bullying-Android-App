@@ -9,7 +9,9 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
-	 Button button1;
+	 public Button button1;
+	 public Button button2;
+	 public Button button3;
 	 @Override
 	 public void onCreate(Bundle savedInstanceState) {
 		 super.onCreate(savedInstanceState);
