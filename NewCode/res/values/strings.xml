@@ -23,4 +23,6 @@
 
     <string name="no">NO</string>
 
+    <string name="expln">This button will send you to the CEOP site so you can report abuse/bullying</string>
+
 </resources>

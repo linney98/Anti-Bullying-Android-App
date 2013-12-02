@@ -34,6 +34,7 @@
             android:background="@color/bttnB"
             android:text="@string/qz"
             android:textColor="@color/bttn"
+            android:onClick="onClick"
             />
 
         <ImageButton
@@ -42,8 +43,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/ceop"
             android:textColor="@color/blueBB"
-            android:contentDescription="This button will send you to the CEOP site so you can report abuse/bullying"
-            />
+            android:contentDescription="@string/expln"/>
 
     </LinearLayout>
 
