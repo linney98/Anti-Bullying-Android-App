@@ -18,7 +18,7 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/stTXT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/wcmeq"
@@ -29,13 +29,15 @@
             android:id="@+id/button1q"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ys" />
+            android:text="@string/ys"
+            android:onClick="onClick" />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/no" />
+            android:text="@string/no"
+            android:onClick="onClick" />
 
     </LinearLayout>
 

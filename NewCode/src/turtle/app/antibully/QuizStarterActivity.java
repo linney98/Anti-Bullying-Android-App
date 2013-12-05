@@ -31,6 +31,7 @@ public class QuizStarterActivity extends Activity {
 	 public void addListenerOnButton3() {
 		 final Context context = this;
 		 Button button3 = (Button) findViewById(R.id.button7);
+		 Button button1q = (Button) findViewById(R.id.button1q);
 		 button3.setOnClickListener(new OnClickListener() {
 			 @Override
 			 public void onClick(View arg0) {
@@ -38,6 +39,15 @@ public class QuizStarterActivity extends Activity {
 				 startActivity(intenth);
 			 }
 		 });
+			 button1q.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View arg0) {
+					Intent intenti = new Intent(context, QuizFirstActivity.class);
+					startActivity(intenti);
+				}
+				 
+			 });
 	 }
 
     @Override

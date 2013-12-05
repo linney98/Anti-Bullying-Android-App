@@ -19,12 +19,12 @@ public class QuizFirstActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_quiz_first);
 		Intent intent = getIntent();
-        addListenerOnButton5();
+        addListenerOnButton5Up();
 		// Show the Up button in the action bar.
 		setupActionBar();
 	}
 
-	private void addListenerOnButton5() {
+	private void addListenerOnButton5Up() {
 		final Context context = this;
 		 Button button5 = (Button) findViewById(R.id.button5);
 		 Button button6 = (Button) findViewById(R.id.button6);
@@ -35,7 +35,7 @@ public class QuizFirstActivity extends Activity {
 			 public void onClick(View arg0) {
 				 Toast toastc = Toast.makeText(getApplicationContext(), "Correct! :-)", Toast.LENGTH_LONG);
 				 toastc.show();
-				 Intent intenth = new Intent(context, MainActivity.class);
+				 Intent intenth = new Intent(context, QuizSecondActivity.class);
 				 startActivity(intenth);
 			 }
 		 });
@@ -46,6 +46,20 @@ public class QuizFirstActivity extends Activity {
 				 startActivity(intenti);
 			}
 		 });
+		 button6.setOnClickListener(new OnClickListener() {
+				@Override
+				public void onClick(View arg0) {
+					Intent intenti = new Intent(context, QuizFailedActivity.class);
+					 startActivity(intenti);
+				}
+			 });
+		 button8.setOnClickListener(new OnClickListener() {
+				@Override
+				public void onClick(View arg0) {
+					Intent intenti = new Intent(context, QuizFailedActivity.class);
+					 startActivity(intenti);
+				}
+			 });
 	}
 
 	/**

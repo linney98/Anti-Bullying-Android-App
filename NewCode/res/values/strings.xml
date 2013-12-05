@@ -29,5 +29,7 @@
     <string name="q1ans4">Other Family Member</string>
     <string name="title_activity_quiz_failed">QuizFailedActivity</string>
     <string name="failed">You have failed to pass the quiz this time but if you would like to have another try just click on the back arrow in the top left corner!</string>
+    <string name="title_activity_quiz_second">QuizSecondActivity</string>
+    <string name="q2">What is bullying?</string>
 
 </resources>
