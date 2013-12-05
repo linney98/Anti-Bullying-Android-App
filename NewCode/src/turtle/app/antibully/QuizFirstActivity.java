@@ -27,14 +27,24 @@ public class QuizFirstActivity extends Activity {
 	private void addListenerOnButton5() {
 		final Context context = this;
 		 Button button5 = (Button) findViewById(R.id.button5);
+		 Button button6 = (Button) findViewById(R.id.button6);
+		 Button button7 = (Button) findViewById(R.id.button7);
+		 Button button8 = (Button) findViewById(R.id.button8);
 		 button5.setOnClickListener(new OnClickListener() {
 			 @Override
 			 public void onClick(View arg0) {
-				 Toast toast = Toast.makeText(getApplicationContext(), "Correct!", Toast.LENGTH_LONG);
-				 toast.show();
+				 Toast toastc = Toast.makeText(getApplicationContext(), "Correct! :-)", Toast.LENGTH_LONG);
+				 toastc.show();
 				 Intent intenth = new Intent(context, MainActivity.class);
 				 startActivity(intenth);
 			 }
+		 });
+		 button7.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				Intent intenti = new Intent(context, QuizFailedActivity.class);
+				 startActivity(intenti);
+			}
 		 });
 	}
 

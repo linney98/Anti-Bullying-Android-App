@@ -38,6 +38,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="turtle.app.antibully.QuizStarterActivity" />
         </activity>
+        <activity
+            android:name="turtle.app.antibully.QuizFailedActivity"
+            android:label="@string/title_activity_quiz_failed"
+            android:parentActivityName="turtle.app.antibully.QuizStarterActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="turtle.app.antibully.QuizStarterActivity" />
+        </activity>
     </application>
 
 </manifest>
