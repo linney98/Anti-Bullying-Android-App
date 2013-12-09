@@ -44,7 +44,7 @@
             android:layout_below="@+id/textView1"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="19dp"
-            android:text="Button" />
+            android:text="@string/q2ans1" />
 
         <Button
             android:id="@+id/q2bttn2"

@@ -31,5 +31,6 @@
     <string name="failed">You have failed to pass the quiz this time but if you would like to have another try just click on the back arrow in the top left corner!</string>
     <string name="title_activity_quiz_second">QuizSecondActivity</string>
     <string name="q2">What is bullying?</string>
+    <string name="q2ans1">something that happens Several Times On Purpose</string>
 
 </resources>
