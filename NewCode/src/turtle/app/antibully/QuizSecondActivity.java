@@ -1,10 +1,16 @@
 package turtle.app.antibully;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.support.v4.app.NavUtils;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class QuizSecondActivity extends Activity {
 
@@ -14,7 +20,71 @@ public class QuizSecondActivity extends Activity {
 		setContentView(R.layout.activity_quiz_second);
 		// Show the Up button in the action bar.
 		setupActionBar();
+		buttonCorrect();
+		buttonIncorrect1();
+		buttonIncorrect2();
+		buttonIncorrect3();
 	}
+
+	public void buttonCorrect() {
+		Button buttonCorrect;
+		buttonCorrect = (Button) findViewById(R.id.q2bttn4);
+		final Context context = this;
+		buttonCorrect.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Toast toastc = Toast.makeText(getApplicationContext(), "Correct! :-)", Toast.LENGTH_LONG);
+				 toastc.show();
+				 Intent intenth = new Intent(context, QuizThirdActivity.class);
+				 startActivity(intenth);
+			}
+			
+		});
+	}
+		public void buttonIncorrect1() {
+			Button buttonIncorrect;
+			buttonIncorrect = (Button) findViewById(R.id.q2bttn1);
+			final Context context = this;
+			buttonIncorrect.setOnClickListener(new OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					 Intent intenth = new Intent(context, QuizFailedActivity.class);
+					 startActivity(intenth);
+				}
+				
+			});
+		}
+		public void buttonIncorrect2() {
+			Button buttonIncorrect;
+			buttonIncorrect = (Button) findViewById(R.id.q2bttn2);
+			final Context context = this;
+			buttonIncorrect.setOnClickListener(new OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					 Intent intenth = new Intent(context, QuizFailedActivity.class);
+					 startActivity(intenth);
+				}
+				
+			});
+		}
+
+		public void buttonIncorrect3() {
+			Button buttonIncorrect;
+			buttonIncorrect = (Button) findViewById(R.id.q2bttn3);
+			final Context context = this;
+			buttonIncorrect.setOnClickListener(new OnClickListener() {
+
+				@Override
+				public void onClick(View v) {
+					 Intent intenth = new Intent(context, QuizFailedActivity.class);
+					 startActivity(intenth);
+				}
+				
+			});
+		}
 
 	/**
 	 * Set up the {@link android.app.ActionBar}.

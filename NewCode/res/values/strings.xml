@@ -45,5 +45,14 @@
     <string name="nm3">Ruby Hollingworth</string>
     <string name="nm3jb">\@string/nm2jb</string>
     <string name="updt">Update App!</string>
+    <string name="title_activity_quiz_third">QuizThirdActivity</string>
+    <string name="q3">What do you do if you are being bullied?</string>
+    <string name="q3ans1">Cry!</string>
+    <string name="q3ans2">Nothing</string>
+    <string name="q3ans3">Report it</string>
+    <string name="q3ans4">Commit selfharm</string>
+    <string name="title_activity_quiz_fourth">QuizFourthActivity</string>
+    <string name="title_activity_quiz_fifth">QuizFifthActivity</string>
+    <string name="title_activity_quiz_succeded">QuizSuccededActivity</string>
 
 </resources>
