@@ -31,5 +31,28 @@
     <string name="failed">You have failed to pass the quiz this time but if you would like to have another try just click on the back arrow in the top left corner!</string>
     <string name="title_activity_quiz_second">QuizSecondActivity</string>
     <string name="q2">What is bullying?</string>
+    <string name="q2ans1">something that happens Several Times On Purpose</string>
+    <string name="q2ans2">Name Calling</string>
+    <string name="q2ans3">Physical Violence</string>
+    <string name="q2ans4">All of the Above (#1 and either #2 or #3)</string>
+    <string name="crdtsbttn">Credits</string>
+    <string name="title_activity_crdts">CrdtsActivity</string>
+    <string name="credits">Credits</string>
+    <string name="nm1">Louis Hollingworth</string>
+    <string name="nm1jb">App Creator</string>
+    <string name="nm2">Emily Marriott</string>
+    <string name="nm2jb">Some ideas</string>
+    <string name="nm3">Ruby Hollingworth</string>
+    <string name="nm3jb">\@string/nm2jb</string>
+    <string name="updt">Update App!</string>
+    <string name="title_activity_quiz_third">QuizThirdActivity</string>
+    <string name="q3">What do you do if you are being bullied?</string>
+    <string name="q3ans1">Cry!</string>
+    <string name="q3ans2">Nothing</string>
+    <string name="q3ans3">Report it</string>
+    <string name="q3ans4">Commit selfharm</string>
+    <string name="title_activity_quiz_fourth">QuizFourthActivity</string>
+    <string name="title_activity_quiz_fifth">QuizFifthActivity</string>
+    <string name="title_activity_quiz_succeded">QuizSuccededActivity</string>
 
 </resources>

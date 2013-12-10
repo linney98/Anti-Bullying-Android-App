@@ -4,6 +4,8 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
+    <supports-screens android:xlargeScreens="true" />
+
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="15" />
@@ -32,7 +34,7 @@
         </activity>
         <activity
             android:name="turtle.app.antibully.QuizFirstActivity"
-            android:label="@string/title_activity_quiz_first"
+            android:label="@string/app_name"
             android:parentActivityName="turtle.app.antibully.QuizStarterActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -40,7 +42,7 @@
         </activity>
         <activity
             android:name="turtle.app.antibully.QuizFailedActivity"
-            android:label="@string/title_activity_quiz_failed"
+            android:label="@string/app_name"
             android:parentActivityName="turtle.app.antibully.QuizStarterActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -48,11 +50,51 @@
         </activity>
         <activity
             android:name="turtle.app.antibully.QuizSecondActivity"
-            android:label="@string/title_activity_quiz_second"
+            android:label="@string/app_name"
             android:parentActivityName="turtle.app.antibully.QuizStarterActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="turtle.app.antibully.QuizStarterActivity" />
+        </activity>
+        <activity
+            android:name="turtle.app.antibully.CrdtsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="turtle.app.antibully.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="turtle.app.antibully.MainActivity" />
+        </activity>
+        <activity
+            android:name="turtle.app.antibully.QuizThirdActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="turtle.app.antibully.QuizStarterActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="turtle.app.antibully.QuizStarterActivity" />
+        </activity>
+        <activity
+            android:name="turtle.app.antibully.QuizFourthActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="turtle.app.antibully.QuizStarterActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="turtle.app.antibully.QuizStarterActivity" />
+        </activity>
+        <activity
+            android:name="turtle.app.antibully.QuizFifthActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="turtle.app.antibully.QuizStarterActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="turtle.app.antibully.QuizStarterActivity" />
+        </activity>
+        <activity
+            android:name="turtle.app.antibully.QuizSuccededActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="turtle.app.antibully.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="turtle.app.antibully.MainActivity" />
         </activity>
     </application>
 

@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".QuizSecondActivity"
+    tools:context=".QuizThirdActivity"
     android:background="@color/blueB" >
 
     <RelativeLayout
@@ -17,65 +17,61 @@
         android:background="@color/blueBB" >
 
         <TextView
-            android:id="@+id/q2txt"
-            android:layout_width="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:text="@string/q2"
+            android:text="@string/q3"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="30sp"
-            android:textColor="@color/textR" />
+            android:textColor="@color/textR"
+            android:textSize="30sp" />
 
         <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/q2txt"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="79dp"
-            android:text="@string/ansLBL"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
-
-        <Button
-            android:id="@+id/q2bttn1"
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView1"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="19dp"
-            android:text="@string/q2ans1"
-            android:onClick="onClick" />
+            android:layout_marginTop="28dp"
+            android:text="@string/ansLBL"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <Button
-            android:id="@+id/q2bttn2"
+            android:id="@+id/q3ans1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/q2bttn1"
-            android:layout_below="@+id/q2bttn1"
-            android:layout_marginTop="19dp"
-            android:text="@string/q2ans2"
-            android:onClick="onClick" />
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:text="@string/q3ans1" />
 
         <Button
-            android:id="@+id/q2bttn3"
+            android:id="@+id/q3ans4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/q2bttn2"
-            android:layout_below="@+id/q2bttn2"
-            android:layout_marginTop="19dp"
-            android:text="@string/q2ans3"
-            android:onClick="onClick" />
+            android:layout_below="@+id/q3ans3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/q3ans4" />
 
         <Button
-            android:id="@+id/q2bttn4"
+            android:id="@+id/q3ans3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/q2bttn3"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="19dp"
-            android:text="@string/q2ans4"
-            android:onClick="onClick" />
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/q3ans2"
+            android:layout_marginTop="16dp"
+            android:text="@string/q3ans3" />
+
+        <Button
+            android:id="@+id/q3ans2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/q3ans1"
+            android:layout_marginTop="16dp"
+            android:text="@string/q3ans2" />
 
     </RelativeLayout>
 
