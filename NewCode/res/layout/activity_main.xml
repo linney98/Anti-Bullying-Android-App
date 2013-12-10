@@ -45,6 +45,24 @@
             android:textColor="@color/blueBB"
             android:contentDescription="@string/expln"/>
 
+        <Button
+            android:id="@+id/crdts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bttnB"
+            android:onClick="onClick"
+            android:text="@string/crdtsbttn"
+            android:textColor="@color/bttn" />
+
+        <Button
+            android:id="@+id/updtbttn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/textR"
+            android:onClick="onClick"
+            android:text="@string/updt"
+            android:textColor="@color/bttn" />
+
     </LinearLayout>
 
 </RelativeLayout>

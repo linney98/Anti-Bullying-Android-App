@@ -53,7 +53,7 @@
             android:layout_alignLeft="@+id/q2bttn1"
             android:layout_below="@+id/q2bttn1"
             android:layout_marginTop="19dp"
-            android:text="Button" />
+            android:text="@string/q2ans2" />
 
         <Button
             android:id="@+id/q2bttn3"
@@ -62,7 +62,7 @@
             android:layout_alignLeft="@+id/q2bttn2"
             android:layout_below="@+id/q2bttn2"
             android:layout_marginTop="19dp"
-            android:text="Button" />
+            android:text="@string/q2ans3" />
 
         <Button
             android:id="@+id/q2bttn4"
@@ -71,7 +71,7 @@
             android:layout_alignLeft="@+id/q2bttn3"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="19dp"
-            android:text="Button" />
+            android:text="@string/q2ans4" />
 
     </RelativeLayout>
 

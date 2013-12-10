@@ -3,6 +3,7 @@
     package="turtle.app.antibully"
     android:versionCode="1"
     android:versionName="1.0" >
+    <supports-screens android:xlargeScreens="true" />
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -53,6 +54,14 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="turtle.app.antibully.QuizStarterActivity" />
+        </activity>
+        <activity
+            android:name="turtle.app.antibully.CrdtsActivity"
+            android:label="@string/title_activity_crdts"
+            android:parentActivityName="turtle.app.antibully.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="turtle.app.antibully.MainActivity" />
         </activity>
     </application>
 
