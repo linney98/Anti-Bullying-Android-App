@@ -50,7 +50,7 @@
     <string name="q3ans1">Cry!</string>
     <string name="q3ans2">Nothing</string>
     <string name="q3ans3">Report it</string>
-    <string name="q3ans4">Commit selfharm</string>
+    <string name="q3ans4">Fight back</string>
     <string name="title_activity_quiz_fourth">QuizFourthActivity</string>
     <string name="title_activity_quiz_fifth">QuizFifthActivity</string>
     <string name="title_activity_quiz_succeded">QuizSuccededActivity</string>
